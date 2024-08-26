@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    font-family: "New Amsterdam", sans-serif;
+}
+main {
+    width: 1366px;
+    height: 2000px;
+    background-color:#FFE85A;
+    margin: 0 auto;
+}
+
+header {
+    width: 1366px;
+    height: 200px;
+    text-align: center;
+}
+
+nav {
+    width: 1366px;
+    height: 50px;
+    background-color: #FEFE48;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    font-family: "Matemasie", sans-serif;
+    transition: .5s;
+    
+}
+nav a:hover{
+    background-color: #FFB5FE;
+    transform: scale(1.2);
+}
+
+section {
+    width: 1366px;
+    height: 1500px;
+    background-image: url(../Imagenes/office-ext-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section .Personaje {
+    width: 1300px;
+    height: 350px;
+    margin-left: 33px;
+    margin-top: 20px;
+    float: left;
+
+}
+
+.Personaje .Foto {
+    width: 400px;
+    height: 350px;
+    float: left;
+    text-align: center;
+    margin-left: 33px;
+    border-bottom: #F7D558 8px solid;
+}
+
+.Foto img {
+    height: 100%;
+}
+
+.Personaje .Texto {
+    width: 800px;
+    height: 350px;
+    float: left;
+    margin-left: 33px;
+    padding: 15px;
+    background-color:#edba00c5;
+}
+
+footer {
+    width: 1366px;
+    height: 250px;
+    background-color: #F7D558;
+}
